@@ -3,3 +3,4 @@ Orange3
 scikit-learn
 numpy
 pandas
+PyQt5
