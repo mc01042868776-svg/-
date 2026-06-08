@@ -15,8 +15,8 @@ st.markdown("오렌지3(Orange3)에서 저장한 `major_model.pkcls`와 `field_m
 # 1. 2개의 오렌지 모델 로드 (캐싱 적용)
 @st.cache_resource
 def load_orange_models():
-    major_path = "major_model.pkcls"
-    field_path = "field_model.pkcls"
+    major_path = "전공별.pkcls"
+    field_path = "계열별.pkcls"
     
     if not os.path.exists(major_path) or not os.path.exists(field_path):
         return None, None
